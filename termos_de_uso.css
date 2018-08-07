@@ -139,7 +139,7 @@ label:active{
 /*CONTEÚDO */
 
 .term {
-  font-size: 25px;
+  font-size: 20px;
   min-width: 320px;
   padding: 0 10vw;
 }
@@ -160,8 +160,9 @@ label:active{
   .term{
     background-color: rgb(255, 255, 255);
     margin: auto;
-  }
+    font-size: 25px;
 
+  }
 }
 
 @media (min-width: 1024px){
