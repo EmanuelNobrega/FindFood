@@ -1,0 +1,70 @@
+body{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50px 400px 900px 50px;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;  
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+}
+
+/* BARRA SUPERIOR*/
+.bloc1{
+  display: grid;
+  grid-template-columns: 1fr 5fr 16fr 1fr 7fr;
+  background-color: rgb(240, 240, 240);
+  padding: 12px;
+  padding-left: 40px;
+  line-height: 1.5;
+  text-decoration-color: black;
+}
+.barra_pesquisa{
+  height: 25px;
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid rgb(194, 194, 194);
+}
+.icone_pesquisa{
+  padding: 3px;
+  padding-left: 10px;
+}
+.cadastrar{
+  text-decoration-line: none;
+  text-align: center;
+}
+
+
+
+
+
+.bloc2{
+  background-color: rgb(143, 143, 143);
+}
+
+.bloc3{
+  background-color: rgb(255, 255, 255);
+}
+
+.bloc4{
+  background-color: rgb(240, 240, 240);
+}
