@@ -74,16 +74,6 @@ a:hover, a:active, a:focus {
   margin-right: 10px;
 }
 
-input,label:active{
-  transition: transform 1s;
-  will-change: transform;
-}
-
-label:active{
-  transform: translateY(10px);
-}
-
-
 .barra_pesquisa{
   display: flex;
   flex-direction: column;
@@ -115,7 +105,7 @@ label:active{
   }
 }
 
-.cadastrar{
+.home{
   grid-column: 4 / 6;
   text-decoration-line: none;
   text-align: center;
@@ -124,7 +114,7 @@ label:active{
 }
 
 @media (min-width:450px){
-  .cadastrar{
+  .home{
     grid-column: 5 / 6;
   }
 }
