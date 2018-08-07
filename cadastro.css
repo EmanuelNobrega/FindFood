@@ -83,7 +83,7 @@ a:hover, a:active, a:focus {
   }
 }
 
-.cadastrar{
+.home{
   grid-column: 4 / 6;
   text-decoration-line: none;
   text-align: center;
@@ -92,13 +92,16 @@ a:hover, a:active, a:focus {
 }
 
 @media (min-width:450px){
-  .cadastrar{
+  .home{
     grid-column: 5 / 6;
   }
+}
+.bloc2{
+  margin-top: 54px;
 }
 
 /*BARRA INFERIOR*/
 
-.bloc4{
+.bloc3{
   background-color: rgb(240, 240, 240);
 }
