@@ -26,7 +26,7 @@ body{
 .terceiro{
   background-image: url(images/pizzas-feitas-com-massa.jpg);
   background-position: center;
-  background-size: 105%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .quarto{
@@ -37,28 +37,28 @@ body{
 }
 
 .quinto{
-  background-image: url(images/china_taiwan.jpg);
+  background-image: url(images/salao-principal.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .sexto{
-  background-image: url(images/bardocuzcuz.jpg);
+  background-image: url(images/peixada-do-amor-2-largejpg.jpg);
   background-position: center;
-  background-size: 105%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .setimo{
-  background-image: url(images/gulliver-mar.jpg);
+  background-image: url(images/sorveteira-delicias-do.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .oitavo{
-  background-image: url(images/china_taiwan.jpg);
+  background-image: url(images/adega-do-alfredo.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ label:active{
 p{
   background-color: rgba(255, 255, 255, 0.76);
   padding: 0 10px;
-  margin-right: 300px;
+  margin-right: 250px;
 }
 
 .classification{
