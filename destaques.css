@@ -1,6 +1,7 @@
 body{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100vh 100% 50px;
   padding: 0;
   margin: 0;
   min-width: 400px;
@@ -9,7 +10,7 @@ body{
 /* imagens */
 
 .primeiro{
-  background-image: url(images/terere.jpg);
+  background-image: url(images/gulliver-mar.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -23,9 +24,43 @@ body{
 }
 
 .terceiro{
+  background-image: url(images/pizzas-feitas-com-massa.jpg);
+  background-position: center;
+  background-size: 105%;
+  background-repeat: no-repeat;
+}
+.quarto{
+  background-image: url(images/salao-principal.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.quinto{
+  background-image: url(images/china_taiwan.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.sexto{
   background-image: url(images/bardocuzcuz.jpg);
   background-position: center;
   background-size: 105%;
+  background-repeat: no-repeat;
+}
+
+.setimo{
+  background-image: url(images/gulliver-mar.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.oitavo{
+  background-image: url(images/china_taiwan.jpg);
+  background-position: center;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
@@ -74,6 +109,16 @@ a:hover, a:active, a:focus {
   margin-right: 10px;
 }
 
+input,label:active{
+  transition: transform 1s;
+  will-change: transform;
+}
+
+label:active{
+  transform: translateY(10px);
+}
+
+
 .barra_pesquisa{
   display: flex;
   flex-direction: column;
@@ -86,7 +131,7 @@ a:hover, a:active, a:focus {
   width: 97%;
   background-color: white;
   border-radius: 3px;
-  border: 1px solid rgb(194, 194, 194);
+  border: 1px solid rgb(250, 140, 140);
   padding-left: 10px;
   margin-right: 10px;
 }
@@ -128,41 +173,80 @@ a:hover, a:active, a:focus {
 
 /*CONTEÚDO */
 
-.term {
-  font-size: 20px;
+.bloc3{
+  display: grid;
+  grid-template-columns:  1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 5px;
+  font-size: 25px;
   min-width: 320px;
-  padding: 0 10vw;
-  text-align: justify;
-}
-
-.term h1{
-  text-align: center;
+  margin: auto;
 }
 
 @media (min-width: 320px){
-  .term{
+  .bloc3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
     background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    min-width: 2fr;
     margin: auto;
   }
 
 }
 
 @media (min-width: 768px){
-  .term{
+  .bloc3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     background-color: rgb(255, 255, 255);
-    margin: auto;
     font-size: 25px;
-
+    min-width: 750px;
+    margin: auto;
   }
+
 }
 
 @media (min-width: 1024px){
-  .term{
+  .bloc3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    min-width: 1000px;
     margin: auto;
   }
 }
 
+.rank{
+  padding: .1px;
+}
+
+p{
+  background-color: rgba(255, 255, 255, 0.76);
+  padding: 0 10px;
+  margin-right: 300px;
+}
+
+.classification{
+	margin-top: 150px;
+	text-align: center;
+	font-size: 25px;
+}
+
+ .border_icone{
+   font-size: 33px;
+   margin-bottom: -33px;
+   color: red;
+  }
+  
+  .incone i{
+  margin: 0 4.5px ;
+  color: yellow;
+} 
 
 /*BARRA INFERIOR*/
 
